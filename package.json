@@ -1,0 +1,30 @@
+{
+  "name": "x-cash",
+  "version": "1.0.0",
+  "description": "X-CASH token smart contract for the X-Cash platform",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "ganache-cli": "^6.12.2",
+    "truffle": "^5.3.10"
+  },
+  "devDependencies": {
+    "@openzeppelin/test-environment": "^0.1.9",
+    "@openzeppelin/test-helpers": "^0.5.11",
+    "@truffle/hdwallet-provider": "^1.4.0",
+    "chai": "^4.3.4",
+    "truffle-plugin-verify": "^0.5.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://OlegKuzmenkoFB@bitbucket.org/firstbridge_company/x-cash.git"
+  },
+  "author": "oleg.kuzmenko@firstbridge.io",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/firstbridge_company/x-cash#readme"
+}
